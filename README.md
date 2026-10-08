@@ -295,6 +295,32 @@ Tests can cover:
 - Individual certificate failure
 - Certificate retrieval
 
+## Demo
+
+### API Documentation
+
+The FastAPI Swagger UI provides interactive documentation and allows the API endpoints to be tested directly from the browser.
+
+![UI](image-4.png)
+
+### Bulk Certificate Generation
+
+A single API request accepts multiple recipients and generates individual certificates for each recipient.
+
+![API doc](image-5.png)
+
+### Job Status
+
+The job status endpoint provides the total number of recipients, successful generations, failed generations, and individual certificate statuses.
+
+![status](image-6.png)
+
+### Generated Certificate
+
+Generated certificates are saved as PDF files and can be retrieved through the certificate download endpoint.
+
+![certificate](image-3.png)
+
 ## Future Scope
 
 - Background processing using Celery and Redis
