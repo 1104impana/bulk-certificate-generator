@@ -318,6 +318,7 @@ The job status endpoint provides the total number of recipients, successful gene
 ### Generated Certificate
 
 Generated certificates are saved as PDF files and can be retrieved through the certificate download endpoint.
+![alt text](image-7.png)
 
 ![certificate](image-3.png)
 
